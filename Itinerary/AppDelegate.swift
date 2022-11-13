@@ -7,15 +7,27 @@
 // why it's not working?
 //  Last test 118
 
+/*
+ How to change main Storyboard in Xcode?
+ In Xcode 14, there is an interface change. The "Main Interface" field is no longer shown in the "General" Tab. You need to go to the "Build Settings" tab and search for the "UIKit Main Storyboard File Base Name" key. Then remove the key or set the value to empty.2 Mar 2020
+ */
+
 import UIKit
 
 @main
+
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
+//var window: UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+//        let window = UIWindow(frame: UIScreen.main.bounds)
+////        window.rootViewController = TripsViewController()
+//        window.makeKeyAndVisible()
+//        self.window = window
+        
         return true
     }
 
@@ -35,4 +47,3 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
 }
-

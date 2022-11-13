@@ -8,11 +8,11 @@
 import Foundation
 
 class TripModel { //this is my first class i create on xcode! Yeeeeee!
-    var id: String!
-    var title: String! // this is the self.title from below. ! means it requared.
+    let id: UUID
+    var title: String // this is the self.title from below.
     
     init(title: String) {
-        id = UUID().uuidString
+        id = UUID()
         self.title = title
     }
 }
