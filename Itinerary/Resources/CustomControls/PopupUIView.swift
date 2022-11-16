@@ -16,7 +16,7 @@ class PopupUIView: UIView {
         layer.shadowOffset = CGSize.zero
         layer.shadowColor = UIColor.darkGray.cgColor
         layer.cornerRadius = 11
-        backgroundColor = Theme.backgroundColor
+        backgroundColor = Theme.funk
     }
 
 }

@@ -69,7 +69,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="Qd8-Ii-X3m" kind="presentation" id="e2n-px-dIL"/>
+                                    <segue destination="Qd8-Ii-X3m" kind="presentation" identifier="toAddTripSegue" id="e2n-px-dIL"/>
                                 </connections>
                             </button>
                         </subviews>

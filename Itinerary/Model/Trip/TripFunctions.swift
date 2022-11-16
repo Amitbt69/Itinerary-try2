@@ -12,7 +12,7 @@ import Foundation
 
 class TripFunctions {
     static func createTrip(tripModel: TripModel){ //static means call the function without inistatiating the class every time.
-        
+        Data.tripModels.append(tripModel)
     }
     
     static func readTrip(completion: @escaping () -> ()){
